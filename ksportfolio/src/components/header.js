@@ -1,14 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
+import About from "./pages/about";
+import Resume from "./pages/resume";
+import Contact from "./pages/contact";
+import Portfolio from "./Portfolio";
+import NavTabs from "./nav";
 
-function Header() {
+export default function Header() {
+  const [currentPage, setCurrentPage] = useState("About");
+
+  const renderPage = () => {
+    if (currentPage === "About") {
+      return <About />;
+    }
+    if (currentPage === "Contact") {
+      return <Contact />;
+    }
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
+    }
+    if (currentPage === "Resume") {
+      return <Resume />;
+    }
+  };
+
+  const handlePageChange = page => setCurrentPage(page);
+
   return (
-    <header className="header">
-      <h2>About Me</h2>
-      <h2>Portfolio</h2>
-      <h2>Contact</h2>
-      <h2>Resume</h2>
-    </header>
+    <div>
+      <h1>My Portfolio Page</h1>
+      {/* We are passing the currentPage from state and the function to update it */}
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* Here we are calling the renderPage method which will return a component  */}
+      {renderPage()}
+    </div>
   );
 }
-
-export default Header;
