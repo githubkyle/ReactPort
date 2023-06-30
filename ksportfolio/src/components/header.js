@@ -26,7 +26,7 @@ export default function Header() {
   const handlePageChange = page => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="header">
       <h1>My Portfolio Page</h1>
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />

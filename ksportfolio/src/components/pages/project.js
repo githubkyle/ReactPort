@@ -5,8 +5,8 @@ const Project = ({ title, imageUrl, GithubRepo, DeployedPage }) => {
     <div className="project">
       <h3>{title}</h3>
       <img src={imageUrl} alt={title} />
-      <p>{GithubRepo}</p>
-      <p>{DeployedPage}</p>
+      <h2>{GithubRepo}</h2>
+      <h2>{DeployedPage}</h2>
     </div>
   );
 };

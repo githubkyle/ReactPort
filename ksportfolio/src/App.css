@@ -1,6 +1,15 @@
+* {
+  background-color: greenyellow;
+}
+
 .App {
   text-align: center;
   background-color: gold;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
 }
 
 .App-logo {
@@ -36,4 +45,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
 }
