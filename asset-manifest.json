@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReactPort/static/css/main.6574dce7.css",
+    "main.js": "/ReactPort/static/js/main.c7ff11a4.js",
+    "index.html": "/ReactPort/index.html",
+    "main.6574dce7.css.map": "/ReactPort/static/css/main.6574dce7.css.map",
+    "main.c7ff11a4.js.map": "/ReactPort/static/js/main.c7ff11a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6574dce7.css",
+    "static/js/main.c7ff11a4.js"
+  ]
+}
