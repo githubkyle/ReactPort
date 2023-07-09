@@ -1,13 +1,20 @@
 {
   "files": {
     "main.css": "/ReactPort/static/css/main.6574dce7.css",
-    "main.js": "/ReactPort/static/js/main.c7ff11a4.js",
+    "main.js": "/ReactPort/static/js/main.a32b60e4.js",
+    "static/media/firstport.png": "/ReactPort/static/media/firstport.92ca80b1c96be9f50535.png",
+    "static/media/planner.png": "/ReactPort/static/media/planner.40877372b3d0b12806d2.png",
+    "static/media/password.png": "/ReactPort/static/media/password.29e4cac30359aa065925.png",
+    "static/media/servernotes.png": "/ReactPort/static/media/servernotes.2aea3124f89e06d36567.png",
+    "static/media/weather.png": "/ReactPort/static/media/weather.888391892a6636ac159a.png",
+    "static/media/jsq.png": "/ReactPort/static/media/jsq.ec573531fe7a6944b082.png",
+    "static/media/self.jpg": "/ReactPort/static/media/self.47259d4c88817eed0bbe.jpg",
     "index.html": "/ReactPort/index.html",
     "main.6574dce7.css.map": "/ReactPort/static/css/main.6574dce7.css.map",
-    "main.c7ff11a4.js.map": "/ReactPort/static/js/main.c7ff11a4.js.map"
+    "main.a32b60e4.js.map": "/ReactPort/static/js/main.a32b60e4.js.map"
   },
   "entrypoints": [
     "static/css/main.6574dce7.css",
-    "static/js/main.c7ff11a4.js"
+    "static/js/main.a32b60e4.js"
   ]
 }
