@@ -40,6 +40,12 @@ const projects = [
     imageUrl: "firstport.png",
     GithubRepo: "https://github.com/githubkyle/Challenge2",
     DeployedPage: "https://githubkyle.github.io/Challenge2/"
+  },
+  {
+    title: "Workout Customizer",
+    imageUrl: "Workouts.png",
+    GithubRepo: "https://github.com/githubkyle/Workout-Customizer",
+    DeployedPage: "https://workout-customizer-1ca954ff9a9e.herokuapp.com/"
   }
 ];
 
