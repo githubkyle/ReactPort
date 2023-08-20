@@ -5,11 +5,10 @@ export default function Resume() {
     <div>
       <h1>Kyle's Resume</h1>
       <p>
-        <a href="https://gist.github.com/githubkyle/61bf782ed75ce13e0bb7d264edce2a99">
+        <a href="https://docs.google.com/document/d/1fN8_YWR-1AkoO2C-OXp4n6khVSe1cCvt8isFTbsUGZw/">
           My Resume
         </a>
       </p>
-      <div>Hire me?</div>
     </div>
   );
 }
