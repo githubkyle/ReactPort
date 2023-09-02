@@ -26,7 +26,12 @@ const ContactForm = () => {
   return (
     <div>
       <h2>Contact me here</h2>
-      <form onSubmit={onSubmit}>
+
+      <form
+        onSubmit={onSubmit}
+        action="https://formsubmit.co/kshwiss@gmail.com"
+        method="POST"
+      >
         <div className="mb-3">
           <label className="form-label" htmlFor="name">
             Name
@@ -38,6 +43,7 @@ const ContactForm = () => {
             type="text"
             id="name"
             required
+            name="name"
           />
         </div>
         <div className="mb-3">
@@ -51,6 +57,7 @@ const ContactForm = () => {
             type="email"
             id="email"
             required
+            name="email"
           />
         </div>
         <div className="mb-3">
@@ -63,6 +70,7 @@ const ContactForm = () => {
             className="form-control"
             id="message"
             required
+            name="text"
           />
         </div>
         <button className="btn btn-danger" type="submit">
