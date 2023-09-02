@@ -4,7 +4,7 @@ const ContactForm = () => {
   const [nameValue, setNameValue] = useState("");
   const [emailValue, setEmailValue] = useState("");
   const [messageValue, setMessageValue] = useState("");
-  const [formStatus, setFormStatus] = useState("");
+  // const [formStatus, setFormStatus] = useState("");
 
   const handleNameChange = e => {
     setNameValue(e.target.value);
@@ -18,26 +18,51 @@ const ContactForm = () => {
     setMessageValue(e.target.value);
   };
 
-  const onSubmit = e => {
-    e.preventDefault();
-    setFormStatus("Submitting...");
-  };
+  // const onSubmit = e => {
+  //   e.preventDefault();
+  //   setFormStatus("Submitting...");
+  // };
 
   return (
     <div>
       <h2>Contact me here</h2>
 
       <form
-        onSubmit={onSubmit}
+        // onSubmit={onSubmit}
         action="https://formsubmit.co/kshwiss@gmail.com"
         method="POST"
       >
-        <div className="mb-3">
+        <input
+          type="text"
+          name="name"
+          placeholder="Name"
+          value={nameValue}
+          onChange={handleNameChange}
+          required
+        />
+        <input
+          type="email"
+          value={emailValue}
+          onChange={handleEmailChange}
+          name="email"
+          placeholder="Email Address"
+          required
+        />
+
+        <input
+          type="text"
+          name="message"
+          value={messageValue}
+          onChange={handleMessageChange}
+          placeholder="Your Message here "
+          required
+        />
+        {/* <div className="mb-3">
           <label className="form-label" htmlFor="name">
             Name
           </label>
           <input
-            onChange={handleNameChange}
+           
             className="form-control"
             value={nameValue}
             type="text"
@@ -51,8 +76,7 @@ const ContactForm = () => {
             Email
           </label>
           <input
-            value={emailValue}
-            onChange={handleEmailChange}
+            
             className="form-control"
             type="email"
             id="email"
@@ -65,16 +89,15 @@ const ContactForm = () => {
             Message
           </label>
           <textarea
-            value={messageValue}
-            onChange={handleMessageChange}
+            
             className="form-control"
             id="message"
             required
             name="text"
           />
-        </div>
+        </div> */}
         <button className="btn btn-danger" type="submit">
-          {formStatus}
+          {/* {formStatus} */}Send
         </button>
       </form>
     </div>

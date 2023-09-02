@@ -4,11 +4,11 @@ This is my second portfolio created during this bootcamp.
 
 ## Installation
 
-npm i and npm start to turn on the server.
+NPM run start to view the application.
 
 ## Usage
 
-You can see an about me page, a my projects page, my resume and you even contact me.
+You can see an about me page, a my projects page, my resume and you can even contact me.
 
 ```
 
